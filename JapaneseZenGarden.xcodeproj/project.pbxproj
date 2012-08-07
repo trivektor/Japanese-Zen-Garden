@@ -7,25 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B505B26015CF77960094F60E /* wood-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B505B25F15CF77960094F60E /* wood-wallpaper.jpg */; };
 		B5D64EB915CEE37100C51D68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D64EB815CEE37100C51D68 /* UIKit.framework */; };
 		B5D64EBB15CEE37100C51D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D64EBA15CEE37100C51D68 /* Foundation.framework */; };
 		B5D64EBD15CEE37100C51D68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D64EBC15CEE37100C51D68 /* CoreGraphics.framework */; };
 		B5D64EC315CEE37100C51D68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5D64EC115CEE37100C51D68 /* InfoPlist.strings */; };
 		B5D64EC515CEE37100C51D68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D64EC415CEE37100C51D68 /* main.m */; };
 		B5D64EC915CEE37100C51D68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D64EC815CEE37100C51D68 /* AppDelegate.m */; };
+		B5D64ED415CEE61800C51D68 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D64ED315CEE61800C51D68 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B505B25F15CF77960094F60E /* wood-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-wallpaper.jpg"; sourceTree = "<group>"; };
 		B5D64EB415CEE37100C51D68 /* JapaneseZenGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapaneseZenGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D64EB815CEE37100C51D68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5D64EBA15CEE37100C51D68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B5D64EBC15CEE37100C51D68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B5D64EC015CEE37100C51D68 /* JapaneseZenGarden-Info.plist */ = {isa = PBXFileReference; path = "JapaneseZenGarden-Info.plist"; sourceTree = "<group>"; };
+		B5D64EC015CEE37100C51D68 /* JapaneseZenGarden-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JapaneseZenGarden-Info.plist"; sourceTree = "<group>"; };
 		B5D64EC215CEE37100C51D68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5D64EC415CEE37100C51D68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B5D64EC615CEE37100C51D68 /* JapaneseZenGarden-Prefix.pch */ = {isa = PBXFileReference; path = "JapaneseZenGarden-Prefix.pch"; sourceTree = "<group>"; };
-		B5D64EC715CEE37100C51D68 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5D64EC615CEE37100C51D68 /* JapaneseZenGarden-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JapaneseZenGarden-Prefix.pch"; sourceTree = "<group>"; };
+		B5D64EC715CEE37100C51D68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5D64EC815CEE37100C51D68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5D64ED215CEE61800C51D68 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B5D64ED315CEE61800C51D68 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B505B25D15CF773E0094F60E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B505B25F15CF77960094F60E /* wood-wallpaper.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		B5D64EA915CEE37100C51D68 = {
 			isa = PBXGroup;
 			children = (
@@ -72,9 +85,12 @@
 		B5D64EBE15CEE37100C51D68 /* JapaneseZenGarden */ = {
 			isa = PBXGroup;
 			children = (
+				B505B25D15CF773E0094F60E /* Images */,
 				B5D64EC715CEE37100C51D68 /* AppDelegate.h */,
 				B5D64EC815CEE37100C51D68 /* AppDelegate.m */,
 				B5D64EBF15CEE37100C51D68 /* Supporting Files */,
+				B5D64ED215CEE61800C51D68 /* HomeViewController.h */,
+				B5D64ED315CEE61800C51D68 /* HomeViewController.m */,
 			);
 			path = JapaneseZenGarden;
 			sourceTree = "<group>";
@@ -141,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5D64EC315CEE37100C51D68 /* InfoPlist.strings in Resources */,
+				B505B26015CF77960094F60E /* wood-wallpaper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +170,7 @@
 			files = (
 				B5D64EC515CEE37100C51D68 /* main.m in Sources */,
 				B5D64EC915CEE37100C51D68 /* AppDelegate.m in Sources */,
+				B5D64ED415CEE61800C51D68 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +274,7 @@
 				B5D64ECE15CEE37100C51D68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

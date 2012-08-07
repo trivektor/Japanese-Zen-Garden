@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
 
 @implementation AppDelegate
 
@@ -16,7 +17,15 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"wood-wallpaper.jpg"]];
+    
+    HomeViewController *homeController = [[HomeViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeController];
+    [nav.navigationBar setTintColor:[UIColor orangeColor]];
+    
+    [self.window setRootViewController:nav];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
