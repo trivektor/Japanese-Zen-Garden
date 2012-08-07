@@ -41,6 +41,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [self.navigationItem setTitle:@"Japanese Zen Garden"];
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grass.jpg"]]];
 }
 
 - (void)viewDidUnload

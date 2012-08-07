@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B505B26015CF77960094F60E /* wood-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B505B25F15CF77960094F60E /* wood-wallpaper.jpg */; };
+		B505B2A815D0F4CE0094F60E /* wood_bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B505B2A715D0F4CE0094F60E /* wood_bar.jpg */; };
+		B505B2AB15D0F56F0094F60E /* grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B505B2AA15D0F56F0094F60E /* grass.jpg */; };
+		B505B2AD15D0F6270094F60E /* wood_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = B505B2AC15D0F6270094F60E /* wood_bar.png */; };
 		B5D64EB915CEE37100C51D68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D64EB815CEE37100C51D68 /* UIKit.framework */; };
 		B5D64EBB15CEE37100C51D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D64EBA15CEE37100C51D68 /* Foundation.framework */; };
 		B5D64EBD15CEE37100C51D68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D64EBC15CEE37100C51D68 /* CoreGraphics.framework */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		B505B25F15CF77960094F60E /* wood-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-wallpaper.jpg"; sourceTree = "<group>"; };
+		B505B2A715D0F4CE0094F60E /* wood_bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood_bar.jpg; sourceTree = "<group>"; };
+		B505B2AA15D0F56F0094F60E /* grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grass.jpg; sourceTree = "<group>"; };
+		B505B2AC15D0F6270094F60E /* wood_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_bar.png; sourceTree = "<group>"; };
 		B5D64EB415CEE37100C51D68 /* JapaneseZenGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapaneseZenGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D64EB815CEE37100C51D68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5D64EBA15CEE37100C51D68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +56,9 @@
 		B505B25D15CF773E0094F60E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B505B2AC15D0F6270094F60E /* wood_bar.png */,
+				B505B2AA15D0F56F0094F60E /* grass.jpg */,
+				B505B2A715D0F4CE0094F60E /* wood_bar.jpg */,
 				B505B25F15CF77960094F60E /* wood-wallpaper.jpg */,
 			);
 			name = Images;
@@ -158,6 +167,9 @@
 			files = (
 				B5D64EC315CEE37100C51D68 /* InfoPlist.strings in Resources */,
 				B505B26015CF77960094F60E /* wood-wallpaper.jpg in Resources */,
+				B505B2A815D0F4CE0094F60E /* wood_bar.jpg in Resources */,
+				B505B2AB15D0F56F0094F60E /* grass.jpg in Resources */,
+				B505B2AD15D0F6270094F60E /* wood_bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
