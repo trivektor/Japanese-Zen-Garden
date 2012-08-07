@@ -10,6 +10,6 @@
 
 @interface HomeViewController : UITableViewController
 
-@property (nonatomic, assign, readonly) NSArray *menuOptions;
+@property (nonatomic, retain) NSArray *menuOptions;
 
 @end

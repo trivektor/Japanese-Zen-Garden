@@ -14,10 +14,10 @@
 
 - (id)init
 {
-    self = [super initWithStyle:UITableViewStyleGrouped];
+    self = [super initWithStyle:UITableViewStylePlain];
     
     if (self) {
-      [self.menuOptions initWithObjects:@"Introduction", @"History", nil];  
+        //self.menuOptions = [[NSMutableArray alloc] initWithObjects:@"Introduction", @"History", nil];
     }
     return self;
 }
@@ -36,10 +36,12 @@
     return self;
 }
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.menuOptions = [NSArray arrayWithObjects:@"Introduction", @"History", @"About This App", nil];
     [self.navigationItem setTitle:@"Japanese Zen Garden"];
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grass.jpg"]]];
 }
@@ -57,15 +59,23 @@
 
 - (NSInteger)tableView:(UITableView *) numberOfRowsInSection:(NSInteger)section
 {
-    NSLog(@"%s", [self.menuOptions count]);
+    NSLog(@"ccc");
     return [self.menuOptions count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCell"];
+    NSLog(@"bbbb");
+    static NSString *CellIdentifier = @"UITableViewCell";
     
-    [[cell textLabel] setText:[self.menuOptions objectAtIndex:[indexPath row]]];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    NSString *cellValue = [self.menuOptions objectAtIndex:[indexPath row]];
+    cell.textLabel.text = cellValue;
     
     return cell;
 }
