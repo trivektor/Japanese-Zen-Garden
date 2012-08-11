@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5DC10E615D6B68900212C9B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DC10E415D6B68900212C9B /* DetailViewController.m */; };
+		B5DC10E715D6B68900212C9B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DC10E515D6B68900212C9B /* DetailViewController.xib */; };
 		B5DF3FE915D63E32000F79D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF3FE815D63E32000F79D3 /* UIKit.framework */; };
 		B5DF3FEB15D63E32000F79D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF3FEA15D63E32000F79D3 /* Foundation.framework */; };
 		B5DF3FED15D63E32000F79D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF3FEC15D63E32000F79D3 /* CoreGraphics.framework */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5DC10E315D6B68900212C9B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B5DC10E415D6B68900212C9B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B5DC10E515D6B68900212C9B /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		B5DF3FE415D63E32000F79D3 /* Japanese Zen Garden 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japanese Zen Garden 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DF3FE815D63E32000F79D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5DF3FEA15D63E32000F79D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,6 +59,9 @@
 		B5DF3FD915D63E32000F79D3 = {
 			isa = PBXGroup;
 			children = (
+				B5DC10E315D6B68900212C9B /* DetailViewController.h */,
+				B5DC10E415D6B68900212C9B /* DetailViewController.m */,
+				B5DC10E515D6B68900212C9B /* DetailViewController.xib */,
 				B5DF400415D64022000F79D3 /* Images */,
 				B5DF3FFF15D63E52000F79D3 /* HomeViewController.h */,
 				B5DF400015D63E52000F79D3 /* HomeViewController.m */,
@@ -166,6 +174,7 @@
 				B5DF400315D63E52000F79D3 /* HomeViewController.xib in Resources */,
 				B5DF400615D64034000F79D3 /* grass.jpg in Resources */,
 				B5DF400815D64042000F79D3 /* wood_bar.png in Resources */,
+				B5DC10E715D6B68900212C9B /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +188,7 @@
 				B5DF3FF515D63E32000F79D3 /* main.m in Sources */,
 				B5DF3FF915D63E32000F79D3 /* AppDelegate.m in Sources */,
 				B5DF400215D63E52000F79D3 /* HomeViewController.m in Sources */,
+				B5DC10E615D6B68900212C9B /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +292,7 @@
 				B5DF3FFE15D63E32000F79D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

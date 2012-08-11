@@ -7,7 +7,7 @@
 //
 
 #import "HomeViewController.h"
-
+#import "DetailViewController.h"
 
 @interface HomeViewController ()
 
@@ -59,7 +59,7 @@
     [super viewDidLoad];
     [self.navigationItem setTitle:@"Japanese Zen Garden"];
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grass.jpg"]]];
-
+    //[self.tableView.layer setCornerRadius:5.0];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -153,13 +153,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
     // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+    
+    DetailViewController *d = [[DetailViewController alloc] init];
+    [self.navigationController pushViewController:d animated:YES];
      // ...
      // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
+     // [self.navigationController pushViewController:detailViewController animated:YES];
+     
 }
 
 @end

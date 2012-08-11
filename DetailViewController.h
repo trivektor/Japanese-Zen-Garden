@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  DetailViewController.h
 //  Japanese Zen Garden 2
 //
 //  Created by Tri Vuong on 8/11/12.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <QuartzCore/QuartzCore.h>
 
-@interface HomeViewController : UITableViewController
-
-@property (nonatomic, retain) NSArray *menuOptions;
+@interface DetailViewController : UIViewController
 
 @end
