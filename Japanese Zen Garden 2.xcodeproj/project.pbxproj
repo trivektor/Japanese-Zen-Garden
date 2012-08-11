@@ -13,6 +13,10 @@
 		B5DF3FF315D63E32000F79D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5DF3FF115D63E32000F79D3 /* InfoPlist.strings */; };
 		B5DF3FF515D63E32000F79D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF3FF415D63E32000F79D3 /* main.m */; };
 		B5DF3FF915D63E32000F79D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF3FF815D63E32000F79D3 /* AppDelegate.m */; };
+		B5DF400215D63E52000F79D3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF400015D63E52000F79D3 /* HomeViewController.m */; };
+		B5DF400315D63E52000F79D3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DF400115D63E52000F79D3 /* HomeViewController.xib */; };
+		B5DF400615D64034000F79D3 /* grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5DF400515D64034000F79D3 /* grass.jpg */; };
+		B5DF400815D64042000F79D3 /* wood_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = B5DF400715D64042000F79D3 /* wood_bar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,17 @@
 		B5DF3FE815D63E32000F79D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5DF3FEA15D63E32000F79D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B5DF3FEC15D63E32000F79D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B5DF3FF015D63E32000F79D3 /* Japanese Zen Garden 2-Info.plist */ = {isa = PBXFileReference; path = "Japanese Zen Garden 2-Info.plist"; sourceTree = "<group>"; };
+		B5DF3FF015D63E32000F79D3 /* Japanese Zen Garden 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Japanese Zen Garden 2-Info.plist"; sourceTree = "<group>"; };
 		B5DF3FF215D63E32000F79D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5DF3FF415D63E32000F79D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B5DF3FF615D63E32000F79D3 /* Japanese Zen Garden 2-Prefix.pch */ = {isa = PBXFileReference; path = "Japanese Zen Garden 2-Prefix.pch"; sourceTree = "<group>"; };
-		B5DF3FF715D63E32000F79D3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5DF3FF615D63E32000F79D3 /* Japanese Zen Garden 2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Japanese Zen Garden 2-Prefix.pch"; sourceTree = "<group>"; };
+		B5DF3FF715D63E32000F79D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5DF3FF815D63E32000F79D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5DF3FFF15D63E52000F79D3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B5DF400015D63E52000F79D3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B5DF400115D63E52000F79D3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		B5DF400515D64034000F79D3 /* grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grass.jpg; sourceTree = "<group>"; };
+		B5DF400715D64042000F79D3 /* wood_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_bar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +54,10 @@
 		B5DF3FD915D63E32000F79D3 = {
 			isa = PBXGroup;
 			children = (
+				B5DF400415D64022000F79D3 /* Images */,
+				B5DF3FFF15D63E52000F79D3 /* HomeViewController.h */,
+				B5DF400015D63E52000F79D3 /* HomeViewController.m */,
+				B5DF400115D63E52000F79D3 /* HomeViewController.xib */,
 				B5DF3FEE15D63E32000F79D3 /* Japanese Zen Garden 2 */,
 				B5DF3FE715D63E32000F79D3 /* Frameworks */,
 				B5DF3FE515D63E32000F79D3 /* Products */,
@@ -88,6 +101,15 @@
 				B5DF3FF615D63E32000F79D3 /* Japanese Zen Garden 2-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5DF400415D64022000F79D3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF400715D64042000F79D3 /* wood_bar.png */,
+				B5DF400515D64034000F79D3 /* grass.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5DF3FF315D63E32000F79D3 /* InfoPlist.strings in Resources */,
+				B5DF400315D63E52000F79D3 /* HomeViewController.xib in Resources */,
+				B5DF400615D64034000F79D3 /* grass.jpg in Resources */,
+				B5DF400815D64042000F79D3 /* wood_bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +178,7 @@
 			files = (
 				B5DF3FF515D63E32000F79D3 /* main.m in Sources */,
 				B5DF3FF915D63E32000F79D3 /* AppDelegate.m in Sources */,
+				B5DF400215D63E52000F79D3 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
