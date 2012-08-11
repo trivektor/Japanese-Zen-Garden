@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5DF3FE915D63E32000F79D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF3FE815D63E32000F79D3 /* UIKit.framework */; };
+		B5DF3FEB15D63E32000F79D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF3FEA15D63E32000F79D3 /* Foundation.framework */; };
+		B5DF3FED15D63E32000F79D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF3FEC15D63E32000F79D3 /* CoreGraphics.framework */; };
+		B5DF3FF315D63E32000F79D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5DF3FF115D63E32000F79D3 /* InfoPlist.strings */; };
+		B5DF3FF515D63E32000F79D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF3FF415D63E32000F79D3 /* main.m */; };
+		B5DF3FF915D63E32000F79D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF3FF815D63E32000F79D3 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5DF3FE415D63E32000F79D3 /* Japanese Zen Garden 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japanese Zen Garden 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DF3FE815D63E32000F79D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5DF3FEA15D63E32000F79D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5DF3FEC15D63E32000F79D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5DF3FF015D63E32000F79D3 /* Japanese Zen Garden 2-Info.plist */ = {isa = PBXFileReference; path = "Japanese Zen Garden 2-Info.plist"; sourceTree = "<group>"; };
+		B5DF3FF215D63E32000F79D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5DF3FF415D63E32000F79D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5DF3FF615D63E32000F79D3 /* Japanese Zen Garden 2-Prefix.pch */ = {isa = PBXFileReference; path = "Japanese Zen Garden 2-Prefix.pch"; sourceTree = "<group>"; };
+		B5DF3FF715D63E32000F79D3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5DF3FF815D63E32000F79D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5DF3FE115D63E32000F79D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF3FE915D63E32000F79D3 /* UIKit.framework in Frameworks */,
+				B5DF3FEB15D63E32000F79D3 /* Foundation.framework in Frameworks */,
+				B5DF3FED15D63E32000F79D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5DF3FD915D63E32000F79D3 = {
+			isa = PBXGroup;
+			children = (
+				B5DF3FEE15D63E32000F79D3 /* Japanese Zen Garden 2 */,
+				B5DF3FE715D63E32000F79D3 /* Frameworks */,
+				B5DF3FE515D63E32000F79D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5DF3FE515D63E32000F79D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF3FE415D63E32000F79D3 /* Japanese Zen Garden 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5DF3FE715D63E32000F79D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF3FE815D63E32000F79D3 /* UIKit.framework */,
+				B5DF3FEA15D63E32000F79D3 /* Foundation.framework */,
+				B5DF3FEC15D63E32000F79D3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5DF3FEE15D63E32000F79D3 /* Japanese Zen Garden 2 */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF3FF715D63E32000F79D3 /* AppDelegate.h */,
+				B5DF3FF815D63E32000F79D3 /* AppDelegate.m */,
+				B5DF3FEF15D63E32000F79D3 /* Supporting Files */,
+			);
+			path = "Japanese Zen Garden 2";
+			sourceTree = "<group>";
+		};
+		B5DF3FEF15D63E32000F79D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF3FF015D63E32000F79D3 /* Japanese Zen Garden 2-Info.plist */,
+				B5DF3FF115D63E32000F79D3 /* InfoPlist.strings */,
+				B5DF3FF415D63E32000F79D3 /* main.m */,
+				B5DF3FF615D63E32000F79D3 /* Japanese Zen Garden 2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5DF3FE315D63E32000F79D3 /* Japanese Zen Garden 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DF3FFC15D63E32000F79D3 /* Build configuration list for PBXNativeTarget "Japanese Zen Garden 2" */;
+			buildPhases = (
+				B5DF3FE015D63E32000F79D3 /* Sources */,
+				B5DF3FE115D63E32000F79D3 /* Frameworks */,
+				B5DF3FE215D63E32000F79D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Japanese Zen Garden 2";
+			productName = "Japanese Zen Garden 2";
+			productReference = B5DF3FE415D63E32000F79D3 /* Japanese Zen Garden 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5DF3FDB15D63E32000F79D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B5DF3FDE15D63E32000F79D3 /* Build configuration list for PBXProject "Japanese Zen Garden 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5DF3FD915D63E32000F79D3;
+			productRefGroup = B5DF3FE515D63E32000F79D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5DF3FE315D63E32000F79D3 /* Japanese Zen Garden 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5DF3FE215D63E32000F79D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF3FF315D63E32000F79D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5DF3FE015D63E32000F79D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF3FF515D63E32000F79D3 /* main.m in Sources */,
+				B5DF3FF915D63E32000F79D3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5DF3FF115D63E32000F79D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DF3FF215D63E32000F79D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5DF3FFA15D63E32000F79D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5DF3FFB15D63E32000F79D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5DF3FFD15D63E32000F79D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Japanese Zen Garden 2/Japanese Zen Garden 2-Prefix.pch";
+				INFOPLIST_FILE = "Japanese Zen Garden 2/Japanese Zen Garden 2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5DF3FFE15D63E32000F79D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Japanese Zen Garden 2/Japanese Zen Garden 2-Prefix.pch";
+				INFOPLIST_FILE = "Japanese Zen Garden 2/Japanese Zen Garden 2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5DF3FDE15D63E32000F79D3 /* Build configuration list for PBXProject "Japanese Zen Garden 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DF3FFA15D63E32000F79D3 /* Debug */,
+				B5DF3FFB15D63E32000F79D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DF3FFC15D63E32000F79D3 /* Build configuration list for PBXNativeTarget "Japanese Zen Garden 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DF3FFD15D63E32000F79D3 /* Debug */,
+				B5DF3FFE15D63E32000F79D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5DF3FDB15D63E32000F79D3 /* Project object */;
+}
