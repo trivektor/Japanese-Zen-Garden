@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "HomeViewController.m"
-         timestampString = "366393202.570663"
+         timestampString = "366436533.474906"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "22"
-         endingLineNumber = "22"
+         startingLineNumber = "25"
+         endingLineNumber = "25"
          landmarkName = "-init"
          landmarkType = "5">
       </FileBreakpoint>

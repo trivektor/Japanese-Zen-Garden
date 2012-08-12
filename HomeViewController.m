@@ -8,6 +8,8 @@
 
 #import "HomeViewController.h"
 #import "DetailViewController.h"
+#import "Documents.h"
+#import "Document.h"
 
 @interface HomeViewController ()
 
@@ -16,6 +18,7 @@
 @implementation HomeViewController
 
 @synthesize menuOptions;
+@synthesize documents;
 
 - (id)init
 {
@@ -36,6 +39,7 @@
                             @"Aesthetic principles",
                             @"Garden styles",
                             nil];
+        self.documents = [[[Documents alloc] init] getDocuments];
     }
     return self;
 }
@@ -90,7 +94,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [self.menuOptions count];
+    return [self.documents count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -103,10 +107,10 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    NSString *cellValue = [self.menuOptions objectAtIndex:[indexPath row]];
-    cell.textLabel.text = cellValue;
-
-    
+    //NSString *cellValue = [self.documents objectAtIndex:[indexPath row]];
+    //cell.textLabel.text = cellValue;
+    Document *doc = [self.documents objectAtIndex:[indexPath row]];
+    cell.textLabel.text = doc.title;
     return cell;
 }
 

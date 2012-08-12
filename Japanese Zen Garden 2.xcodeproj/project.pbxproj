@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		B5DC10E615D6B68900212C9B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DC10E415D6B68900212C9B /* DetailViewController.m */; };
 		B5DC10E715D6B68900212C9B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DC10E515D6B68900212C9B /* DetailViewController.xib */; };
+		B5DC10F615D7536E00212C9B /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DC10F515D7536E00212C9B /* libsqlite3.0.dylib */; };
+		B5DC10FB15D753BE00212C9B /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DC10FA15D753BE00212C9B /* Document.m */; };
+		B5DC10FD15D7552F00212C9B /* Japanese Zen Garden.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B5DC10FC15D7552F00212C9B /* Japanese Zen Garden.sqlite */; };
+		B5DC110015D755DF00212C9B /* Documents.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DC10FF15D755DF00212C9B /* Documents.m */; };
 		B5DF3FE915D63E32000F79D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF3FE815D63E32000F79D3 /* UIKit.framework */; };
 		B5DF3FEB15D63E32000F79D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF3FEA15D63E32000F79D3 /* Foundation.framework */; };
 		B5DF3FED15D63E32000F79D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF3FEC15D63E32000F79D3 /* CoreGraphics.framework */; };
@@ -25,6 +29,12 @@
 		B5DC10E315D6B68900212C9B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		B5DC10E415D6B68900212C9B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		B5DC10E515D6B68900212C9B /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		B5DC10F515D7536E00212C9B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		B5DC10F915D753BE00212C9B /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		B5DC10FA15D753BE00212C9B /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		B5DC10FC15D7552F00212C9B /* Japanese Zen Garden.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Japanese Zen Garden.sqlite"; path = "../../Desktop/Japanese Zen Garden.sqlite"; sourceTree = "<group>"; };
+		B5DC10FE15D755DF00212C9B /* Documents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Documents.h; sourceTree = "<group>"; };
+		B5DC10FF15D755DF00212C9B /* Documents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Documents.m; sourceTree = "<group>"; };
 		B5DF3FE415D63E32000F79D3 /* Japanese Zen Garden 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japanese Zen Garden 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DF3FE815D63E32000F79D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5DF3FEA15D63E32000F79D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5DC10F615D7536E00212C9B /* libsqlite3.0.dylib in Frameworks */,
 				B5DF3FE915D63E32000F79D3 /* UIKit.framework in Frameworks */,
 				B5DF3FEB15D63E32000F79D3 /* Foundation.framework in Frameworks */,
 				B5DF3FED15D63E32000F79D3 /* CoreGraphics.framework in Frameworks */,
@@ -56,9 +67,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5DC10F815D7539900212C9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5DC10F915D753BE00212C9B /* Document.h */,
+				B5DC10FA15D753BE00212C9B /* Document.m */,
+				B5DC10FE15D755DF00212C9B /* Documents.h */,
+				B5DC10FF15D755DF00212C9B /* Documents.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		B5DF3FD915D63E32000F79D3 = {
 			isa = PBXGroup;
 			children = (
+				B5DC10FC15D7552F00212C9B /* Japanese Zen Garden.sqlite */,
+				B5DC10F815D7539900212C9B /* Models */,
 				B5DC10E315D6B68900212C9B /* DetailViewController.h */,
 				B5DC10E415D6B68900212C9B /* DetailViewController.m */,
 				B5DC10E515D6B68900212C9B /* DetailViewController.xib */,
@@ -83,6 +107,7 @@
 		B5DF3FE715D63E32000F79D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5DC10F515D7536E00212C9B /* libsqlite3.0.dylib */,
 				B5DF3FE815D63E32000F79D3 /* UIKit.framework */,
 				B5DF3FEA15D63E32000F79D3 /* Foundation.framework */,
 				B5DF3FEC15D63E32000F79D3 /* CoreGraphics.framework */,
@@ -175,6 +200,7 @@
 				B5DF400615D64034000F79D3 /* grass.jpg in Resources */,
 				B5DF400815D64042000F79D3 /* wood_bar.png in Resources */,
 				B5DC10E715D6B68900212C9B /* DetailViewController.xib in Resources */,
+				B5DC10FD15D7552F00212C9B /* Japanese Zen Garden.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +215,8 @@
 				B5DF3FF915D63E32000F79D3 /* AppDelegate.m in Sources */,
 				B5DF400215D63E52000F79D3 /* HomeViewController.m in Sources */,
 				B5DC10E615D6B68900212C9B /* DetailViewController.m in Sources */,
+				B5DC10FB15D753BE00212C9B /* Document.m in Sources */,
+				B5DC110015D755DF00212C9B /* Documents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
