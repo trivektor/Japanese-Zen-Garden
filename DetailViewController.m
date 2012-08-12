@@ -23,15 +23,26 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [contentField setText:@"aaaaaaaaaaa"];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grass.jpg"]]];
+    [contentField.layer setCornerRadius:10];
+    [contentField.layer setMasksToBounds:YES];
 }
 
 - (void)viewDidUnload
 {
+    contentField = nil;
+    contentField = nil;
+    titleField = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

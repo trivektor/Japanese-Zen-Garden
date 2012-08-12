@@ -156,8 +156,8 @@
     
     // Navigation logic may go here. Create and push another view controller.
     
-    DetailViewController *d = [[DetailViewController alloc] init];
-    [self.navigationController pushViewController:d animated:YES];
+    DetailViewController *detailViewController = [[DetailViewController alloc] init];
+    [self.navigationController pushViewController:detailViewController animated:YES];
      // ...
      // Pass the selected object to the new view controller.
      // [self.navigationController pushViewController:detailViewController animated:YES];

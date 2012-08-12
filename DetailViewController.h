@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface DetailViewController : UIViewController
-
+{
+    
+    __weak IBOutlet UILabel *titleField;
+    __weak IBOutlet UITextView *contentField;
+}
 @end
