@@ -153,7 +153,7 @@
                                    initWithTitle: @"Back" 
                                    style: UIBarButtonItemStyleBordered
                                    target: nil action: nil];
-    [backButton setTintColor:[UIColor brownColor]];
+    [backButton setTintColor:[[UIColor alloc] initWithRed:57.0/255.0 green:42.0/255.0 blue:23.0/255.0 alpha:1.0]];
     [self.navigationItem setBackBarButtonItem:backButton];
     [self.navigationController pushViewController:detailViewController animated:YES];
      // ...
