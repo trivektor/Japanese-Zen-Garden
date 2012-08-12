@@ -92,7 +92,6 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
-    
     //NSString *cellValue = [self.documents objectAtIndex:[indexPath row]];
     //cell.textLabel.text = cellValue;
     Document *doc = [self.documents objectAtIndex:[indexPath row]];

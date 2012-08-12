@@ -37,6 +37,7 @@
 {
     [super viewDidLoad];
     [contentField setText:[document content]];
+    [contentField setFont:[UIFont fontWithName:@"Baskerville" size:15]];
     NSMutableString *imagePath = [NSMutableString stringWithFormat:@"garden%d.png", document.documentId];
     [imageField setImage:[UIImage imageNamed:imagePath]];
     [contentField setEditable:NO];
