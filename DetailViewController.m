@@ -39,12 +39,12 @@
     [contentField setText:[document content]];
     [contentField setEditable:NO];
     
-    UIImageView *backgroundImageView = [[UIImageView alloc]initWithFrame: CGRectMake(0,0,contentField.frame.size.width,contentField.frame.size.height)];
-    backgroundImageView.image = [UIImage imageNamed:@"paper_stack.png"];
-    [contentField setBackgroundColor:[UIColor clearColor]];
-    [contentField addSubview:backgroundImageView];
-    [contentField sendSubviewToBack:backgroundImageView];
-    [contentField setContentInset:UIEdgeInsetsMake(15,15,15,15)];
+//    UIImageView *backgroundImageView = [[UIImageView alloc]initWithFrame: CGRectMake(0,0,contentField.frame.size.width,contentField.frame.size.height)];
+//    backgroundImageView.image = [UIImage imageNamed:@"paper_stack.png"];
+//    [contentField setBackgroundColor:[UIColor clearColor]];
+//    [contentField addSubview:backgroundImageView];
+//    [contentField sendSubviewToBack:backgroundImageView];
+//    [contentField setContentInset:UIEdgeInsetsMake(15,15,15,15)];
 }
 
 - (void)viewDidLoad

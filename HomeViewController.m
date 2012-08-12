@@ -147,6 +147,14 @@
     
     DetailViewController *detailViewController = [[DetailViewController alloc] init];
     [detailViewController setDocument:[documents objectAtIndex:[indexPath row]]];
+    
+    // Customize the "Back" button
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] 
+                                   initWithTitle: @"Back" 
+                                   style: UIBarButtonItemStyleBordered
+                                   target: nil action: nil];
+    [backButton setTintColor:[UIColor brownColor]];
+    [self.navigationItem setBackBarButtonItem:backButton];
     [self.navigationController pushViewController:detailViewController animated:YES];
      // ...
      // Pass the selected object to the new view controller.
