@@ -23,6 +23,7 @@
 		B5DF400315D63E52000F79D3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DF400115D63E52000F79D3 /* HomeViewController.xib */; };
 		B5DF400615D64034000F79D3 /* grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5DF400515D64034000F79D3 /* grass.jpg */; };
 		B5DF400815D64042000F79D3 /* wood_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = B5DF400715D64042000F79D3 /* wood_bar.png */; };
+		B5F01F2C15D7807700679D10 /* paper_stack.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F01F2B15D7807700679D10 /* paper_stack.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		B5DF400115D63E52000F79D3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		B5DF400515D64034000F79D3 /* grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grass.jpg; sourceTree = "<group>"; };
 		B5DF400715D64042000F79D3 /* wood_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_bar.png; sourceTree = "<group>"; };
+		B5F01F2B15D7807700679D10 /* paper_stack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper_stack.png; path = ../../Desktop/paper_stack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		B5DF400415D64022000F79D3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B5F01F2B15D7807700679D10 /* paper_stack.png */,
 				B5DF400715D64042000F79D3 /* wood_bar.png */,
 				B5DF400515D64034000F79D3 /* grass.jpg */,
 			);
@@ -201,6 +204,7 @@
 				B5DF400815D64042000F79D3 /* wood_bar.png in Resources */,
 				B5DC10E715D6B68900212C9B /* DetailViewController.xib in Resources */,
 				B5DC10FD15D7552F00212C9B /* Japanese Zen Garden.sqlite in Resources */,
+				B5F01F2C15D7807700679D10 /* paper_stack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
