@@ -17,7 +17,6 @@
 
 @implementation HomeViewController
 
-@synthesize menuOptions;
 @synthesize documents;
 
 - (id)init
@@ -25,20 +24,6 @@
     self = [super initWithStyle:UITableViewStyleGrouped];
     if (self) {
         // Custom initialization
-        self.menuOptions = [[NSMutableArray alloc] initWithObjects:
-                            @"Origins of Japanese gardens", 
-                            @"Japanese gardens in antiquity", 
-                            @"Gardens of the Heian period (794–1185)",
-                            @"Kamakura and Muromachi Periods (1185-1573)",
-                            @"The Momoyama Period (1568-1600)",
-                            @"Edo Period (1615-1867)",
-                            @"Meiji Period (1868-1912)",
-                            @"Modern Japanese gardens (1912 to present)",
-                            @"Garden elements",
-                            @"Garden architecture",
-                            @"Aesthetic principles",
-                            @"Garden styles",
-                            nil];
         self.documents = [[[Documents alloc] init] getDocuments];
     }
     return self;
@@ -161,6 +146,7 @@
     // Navigation logic may go here. Create and push another view controller.
     
     DetailViewController *detailViewController = [[DetailViewController alloc] init];
+    [detailViewController setDocument:[documents objectAtIndex:[indexPath row]]];
     [self.navigationController pushViewController:detailViewController animated:YES];
      // ...
      // Pass the selected object to the new view controller.

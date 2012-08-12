@@ -11,7 +11,6 @@
 
 @interface HomeViewController : UITableViewController
 
-@property (nonatomic, retain) NSArray *menuOptions;
 @property (nonatomic, strong) NSMutableArray *documents;
 
 @end

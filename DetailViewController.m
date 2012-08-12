@@ -7,12 +7,15 @@
 //
 
 #import "DetailViewController.h"
+#import "Document.h"
 
 @interface DetailViewController ()
 
 @end
 
 @implementation DetailViewController
+
+@synthesize document;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,10 +26,17 @@
     return self;
 }
 
+- (void)setDocument:(Document *)doc
+{
+    document = doc;
+    [[self navigationItem] setTitle:[document title]];
+}
+
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [contentField setText:@"aaaaaaaaaaa"];
+    [titleField setText:[document title]];
+    [contentField setText:[document content]];
 }
 
 - (void)viewDidLoad
@@ -34,8 +44,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grass.jpg"]]];
-    [contentField.layer setCornerRadius:10];
-    [contentField.layer setMasksToBounds:YES];
 }
 
 - (void)viewDidUnload

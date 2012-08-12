@@ -10,7 +10,6 @@
 
 @implementation Document
 
-@synthesize title;
-@synthesize content;
+@synthesize title, content;
 
 @end

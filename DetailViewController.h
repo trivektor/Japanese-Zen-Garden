@@ -9,10 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
+@class Document;
+
 @interface DetailViewController : UIViewController
 {
     
     __weak IBOutlet UILabel *titleField;
     __weak IBOutlet UITextView *contentField;
 }
+
+@property (nonatomic, strong) Document *document;
+
 @end
