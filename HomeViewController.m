@@ -7,7 +7,8 @@
 //
 
 #import "HomeViewController.h"
-#import "DetailViewController.h"
+//#import "DetailViewController.h"
+#import "DocumentViewController.h"
 #import "Documents.h"
 #import "Document.h"
 
@@ -144,9 +145,11 @@
 {
     
     // Navigation logic may go here. Create and push another view controller.
+    DocumentViewController *documentViewController = [[DocumentViewController alloc] init];
+    [documentViewController setDocument:[documents objectAtIndex:[indexPath row]]];
     
-    DetailViewController *detailViewController = [[DetailViewController alloc] init];
-    [detailViewController setDocument:[documents objectAtIndex:[indexPath row]]];
+//    DetailViewController *detailViewController = [[DetailViewController alloc] init];
+//    [detailViewController setDocument:[documents objectAtIndex:[indexPath row]]];
     
     // Customize the "Back" button
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] 
@@ -155,11 +158,11 @@
                                    target: nil action: nil];
     [backButton setTintColor:[[UIColor alloc] initWithRed:57.0/255.0 green:42.0/255.0 blue:23.0/255.0 alpha:1.0]];
     [self.navigationItem setBackBarButtonItem:backButton];
-    [self.navigationController pushViewController:detailViewController animated:YES];
+//    [self.navigationController pushViewController:detailViewController animated:YES];
      // ...
      // Pass the selected object to the new view controller.
      // [self.navigationController pushViewController:detailViewController animated:YES];
-     
+    [self.navigationController pushViewController:documentViewController animated:YES];
 }
 
 @end

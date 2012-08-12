@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B575EE1A15D8625300BC1844 /* garden1.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE1315D8625300BC1844 /* garden1.png */; };
+		B575EE1B15D8625300BC1844 /* garden2.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE1415D8625300BC1844 /* garden2.png */; };
+		B575EE1C15D8625300BC1844 /* garden3.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE1515D8625300BC1844 /* garden3.png */; };
+		B575EE1D15D8625300BC1844 /* garden4.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE1615D8625300BC1844 /* garden4.png */; };
+		B575EE1E15D8625300BC1844 /* garden5.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE1715D8625300BC1844 /* garden5.png */; };
+		B575EE1F15D8625300BC1844 /* garden6.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE1815D8625300BC1844 /* garden6.png */; };
+		B575EE2015D8625300BC1844 /* garden7.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE1915D8625300BC1844 /* garden7.png */; };
 		B5DC10E615D6B68900212C9B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DC10E415D6B68900212C9B /* DetailViewController.m */; };
 		B5DC10E715D6B68900212C9B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DC10E515D6B68900212C9B /* DetailViewController.xib */; };
 		B5DC10F615D7536E00212C9B /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DC10F515D7536E00212C9B /* libsqlite3.0.dylib */; };
@@ -24,11 +31,18 @@
 		B5DF400615D64034000F79D3 /* grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5DF400515D64034000F79D3 /* grass.jpg */; };
 		B5DF400815D64042000F79D3 /* wood_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = B5DF400715D64042000F79D3 /* wood_bar.png */; };
 		B5F01F2C15D7807700679D10 /* paper_stack.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F01F2B15D7807700679D10 /* paper_stack.png */; };
-		B5F01F3015D837F000679D10 /* The-Basic-Steps-in-Building-Japanese-Garden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5F01F2F15D837F000679D10 /* The-Basic-Steps-in-Building-Japanese-Garden.jpg */; };
-		B5F01F3315D837F800679D10 /* The-Basic-Steps-in-Building-Japanese-Garden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5F01F3215D837F800679D10 /* The-Basic-Steps-in-Building-Japanese-Garden.jpg */; };
+		B5F01F3715D838C600679D10 /* DocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F01F3515D838C600679D10 /* DocumentViewController.m */; };
+		B5F01F3815D838C600679D10 /* DocumentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5F01F3615D838C600679D10 /* DocumentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B575EE1315D8625300BC1844 /* garden1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden1.png; sourceTree = "<group>"; };
+		B575EE1415D8625300BC1844 /* garden2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden2.png; sourceTree = "<group>"; };
+		B575EE1515D8625300BC1844 /* garden3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden3.png; sourceTree = "<group>"; };
+		B575EE1615D8625300BC1844 /* garden4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden4.png; sourceTree = "<group>"; };
+		B575EE1715D8625300BC1844 /* garden5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden5.png; sourceTree = "<group>"; };
+		B575EE1815D8625300BC1844 /* garden6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden6.png; sourceTree = "<group>"; };
+		B575EE1915D8625300BC1844 /* garden7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden7.png; sourceTree = "<group>"; };
 		B5DC10E315D6B68900212C9B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		B5DC10E415D6B68900212C9B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		B5DC10E515D6B68900212C9B /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
@@ -54,8 +68,9 @@
 		B5DF400515D64034000F79D3 /* grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grass.jpg; sourceTree = "<group>"; };
 		B5DF400715D64042000F79D3 /* wood_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_bar.png; sourceTree = "<group>"; };
 		B5F01F2B15D7807700679D10 /* paper_stack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paper_stack.png; path = ../../Desktop/paper_stack.png; sourceTree = "<group>"; };
-		B5F01F2F15D837F000679D10 /* The-Basic-Steps-in-Building-Japanese-Garden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The-Basic-Steps-in-Building-Japanese-Garden.jpg"; sourceTree = "<group>"; };
-		B5F01F3215D837F800679D10 /* The-Basic-Steps-in-Building-Japanese-Garden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The-Basic-Steps-in-Building-Japanese-Garden.jpg"; sourceTree = "<group>"; };
+		B5F01F3415D838C600679D10 /* DocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentViewController.h; sourceTree = "<group>"; };
+		B5F01F3515D838C600679D10 /* DocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentViewController.m; sourceTree = "<group>"; };
+		B5F01F3615D838C600679D10 /* DocumentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocumentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +102,9 @@
 		B5DF3FD915D63E32000F79D3 = {
 			isa = PBXGroup;
 			children = (
+				B5F01F3415D838C600679D10 /* DocumentViewController.h */,
+				B5F01F3515D838C600679D10 /* DocumentViewController.m */,
+				B5F01F3615D838C600679D10 /* DocumentViewController.xib */,
 				B5DC10FC15D7552F00212C9B /* Japanese Zen Garden.sqlite */,
 				B5DC10F815D7539900212C9B /* Models */,
 				B5DC10E315D6B68900212C9B /* DetailViewController.h */,
@@ -145,30 +163,18 @@
 		B5DF400415D64022000F79D3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				B5F01F2E15D837F000679D10 /* iphone_dev */,
+				B575EE1315D8625300BC1844 /* garden1.png */,
+				B575EE1415D8625300BC1844 /* garden2.png */,
+				B575EE1515D8625300BC1844 /* garden3.png */,
+				B575EE1615D8625300BC1844 /* garden4.png */,
+				B575EE1715D8625300BC1844 /* garden5.png */,
+				B575EE1815D8625300BC1844 /* garden6.png */,
+				B575EE1915D8625300BC1844 /* garden7.png */,
 				B5F01F2B15D7807700679D10 /* paper_stack.png */,
 				B5DF400715D64042000F79D3 /* wood_bar.png */,
 				B5DF400515D64034000F79D3 /* grass.jpg */,
 			);
 			name = Images;
-			sourceTree = "<group>";
-		};
-		B5F01F2E15D837F000679D10 /* iphone_dev */ = {
-			isa = PBXGroup;
-			children = (
-				B5F01F3115D837F800679D10 /* iphone_dev */,
-				B5F01F2F15D837F000679D10 /* The-Basic-Steps-in-Building-Japanese-Garden.jpg */,
-			);
-			name = iphone_dev;
-			path = ../../Desktop/iphone_dev;
-			sourceTree = "<group>";
-		};
-		B5F01F3115D837F800679D10 /* iphone_dev */ = {
-			isa = PBXGroup;
-			children = (
-				B5F01F3215D837F800679D10 /* The-Basic-Steps-in-Building-Japanese-Garden.jpg */,
-			);
-			name = iphone_dev;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +234,14 @@
 				B5DC10E715D6B68900212C9B /* DetailViewController.xib in Resources */,
 				B5DC10FD15D7552F00212C9B /* Japanese Zen Garden.sqlite in Resources */,
 				B5F01F2C15D7807700679D10 /* paper_stack.png in Resources */,
-				B5F01F3015D837F000679D10 /* The-Basic-Steps-in-Building-Japanese-Garden.jpg in Resources */,
-				B5F01F3315D837F800679D10 /* The-Basic-Steps-in-Building-Japanese-Garden.jpg in Resources */,
+				B5F01F3815D838C600679D10 /* DocumentViewController.xib in Resources */,
+				B575EE1A15D8625300BC1844 /* garden1.png in Resources */,
+				B575EE1B15D8625300BC1844 /* garden2.png in Resources */,
+				B575EE1C15D8625300BC1844 /* garden3.png in Resources */,
+				B575EE1D15D8625300BC1844 /* garden4.png in Resources */,
+				B575EE1E15D8625300BC1844 /* garden5.png in Resources */,
+				B575EE1F15D8625300BC1844 /* garden6.png in Resources */,
+				B575EE2015D8625300BC1844 /* garden7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +258,7 @@
 				B5DC10E615D6B68900212C9B /* DetailViewController.m in Sources */,
 				B5DC10FB15D753BE00212C9B /* Document.m in Sources */,
 				B5DC110015D755DF00212C9B /* Documents.m in Sources */,
+				B5F01F3715D838C600679D10 /* DocumentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,6 @@
 
 @implementation Document
 
-@synthesize title, content;
+@synthesize documentId, title, content;
 
 @end

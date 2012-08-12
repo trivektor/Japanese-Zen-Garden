@@ -41,6 +41,7 @@
         while (sqlite3_step(sqlStatement) == SQLITE_ROW) 
         {
             Document *doc = [[Document alloc] init];
+            doc.documentId = sqlite3_column_int(sqlStatement, 0);
             doc.title = [NSString stringWithUTF8String:(char *) sqlite3_column_text(sqlStatement, 1)];
             doc.content = [NSString stringWithUTF8String:(char *) sqlite3_column_text(sqlStatement, 2)];
             [documentsArray addObject:doc];
