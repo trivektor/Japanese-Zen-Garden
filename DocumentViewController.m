@@ -36,17 +36,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [contentField setText:[document content]];
-    [contentField setFont:[UIFont fontWithName:@"Baskerville" size:15]];
+    [titleField setText:[document title]];
+    
     NSMutableString *imagePath = [NSMutableString stringWithFormat:@"garden%d.png", document.documentId];
     [imageField setImage:[UIImage imageNamed:imagePath]];
-    [contentField setEditable:NO];
+    
+    [contentField setText:[document content]];
+    [contentField setShowsHorizontalScrollIndicator:NO];
+    [contentField setShowsVerticalScrollIndicator:NO];
 }
 
 - (void)viewDidUnload
 {
     imageField = nil;
     contentField = nil;
+    titleField = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

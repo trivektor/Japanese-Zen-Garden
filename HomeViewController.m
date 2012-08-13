@@ -96,6 +96,7 @@
     //cell.textLabel.text = cellValue;
     Document *doc = [self.documents objectAtIndex:[indexPath row]];
     cell.textLabel.text = doc.title;
+    cell.selectionStyle = UITableViewCellSelectionStyleGray;
     return cell;
 }
 
