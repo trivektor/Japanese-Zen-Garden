@@ -14,6 +14,8 @@
 		B575EE3C15D8B8C600BC1844 /* garden5.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE3515D8B8C600BC1844 /* garden5.png */; };
 		B575EE3D15D8B8C600BC1844 /* garden6.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE3615D8B8C600BC1844 /* garden6.png */; };
 		B575EE3E15D8B8C600BC1844 /* garden7.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE3715D8B8C600BC1844 /* garden7.png */; };
+		B575EE4215D8BE0000BC1844 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575EE4015D8BE0000BC1844 /* AboutViewController.m */; };
+		B575EE4315D8BE0000BC1844 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B575EE4115D8BE0000BC1844 /* AboutViewController.xib */; };
 		B5DC10E615D6B68900212C9B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DC10E415D6B68900212C9B /* DetailViewController.m */; };
 		B5DC10E715D6B68900212C9B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DC10E515D6B68900212C9B /* DetailViewController.xib */; };
 		B5DC10F615D7536E00212C9B /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DC10F515D7536E00212C9B /* libsqlite3.0.dylib */; };
@@ -43,6 +45,9 @@
 		B575EE3515D8B8C600BC1844 /* garden5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden5.png; sourceTree = "<group>"; };
 		B575EE3615D8B8C600BC1844 /* garden6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden6.png; sourceTree = "<group>"; };
 		B575EE3715D8B8C600BC1844 /* garden7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden7.png; sourceTree = "<group>"; };
+		B575EE3F15D8BE0000BC1844 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		B575EE4015D8BE0000BC1844 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		B575EE4115D8BE0000BC1844 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		B5DC10E315D6B68900212C9B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		B5DC10E415D6B68900212C9B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		B5DC10E515D6B68900212C9B /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
@@ -102,6 +107,9 @@
 		B5DF3FD915D63E32000F79D3 = {
 			isa = PBXGroup;
 			children = (
+				B575EE3F15D8BE0000BC1844 /* AboutViewController.h */,
+				B575EE4015D8BE0000BC1844 /* AboutViewController.m */,
+				B575EE4115D8BE0000BC1844 /* AboutViewController.xib */,
 				B5F01F3415D838C600679D10 /* DocumentViewController.h */,
 				B5F01F3515D838C600679D10 /* DocumentViewController.m */,
 				B5F01F3615D838C600679D10 /* DocumentViewController.xib */,
@@ -242,6 +250,7 @@
 				B575EE3C15D8B8C600BC1844 /* garden5.png in Resources */,
 				B575EE3D15D8B8C600BC1844 /* garden6.png in Resources */,
 				B575EE3E15D8B8C600BC1844 /* garden7.png in Resources */,
+				B575EE4315D8BE0000BC1844 /* AboutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +268,7 @@
 				B5DC10FB15D753BE00212C9B /* Document.m in Sources */,
 				B5DC110015D755DF00212C9B /* Documents.m in Sources */,
 				B5F01F3715D838C600679D10 /* DocumentViewController.m in Sources */,
+				B575EE4215D8BE0000BC1844 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

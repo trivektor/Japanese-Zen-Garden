@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 //#import "DetailViewController.h"
 #import "DocumentViewController.h"
+#import "AboutViewController.h"
 #import "Documents.h"
 #import "Document.h"
 
@@ -54,7 +55,10 @@
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    UIBarButtonItem *aboutButton = [[UIBarButtonItem alloc] initWithTitle:@"About" style:UIBarButtonItemStyleBordered target:self action:@selector(showAboutView)];
+    [aboutButton setTintColor:[UIColor colorWithRed:58.0/255.0 green:37.0/255.0 blue:12.0/255.0 alpha:0.8f]];
+    self.navigationItem.rightBarButtonItem = aboutButton;
 }
 
 - (void)viewDidUnload
@@ -67,6 +71,18 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (void)showAboutView
+{
+    AboutViewController *aboutViewController = [[AboutViewController alloc] init];
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+    [UIView setAnimationDuration:0.75];
+    [self.navigationController pushViewController:aboutViewController animated:NO];
+    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.navigationController.view cache:NO];
+    [UIView commitAnimations];
+    [self customizeBackButton];
 }
 
 #pragma mark - Table view data source
@@ -152,17 +168,22 @@
 //    [detailViewController setDocument:[documents objectAtIndex:[indexPath row]]];
     
     // Customize the "Back" button
+    [self customizeBackButton];
+//    [self.navigationController pushViewController:detailViewController animated:YES];
+     // ...
+     // Pass the selected object to the new view controller.
+     // [self.navigationController pushViewController:detailViewController animated:YES];
+    [self.navigationController pushViewController:documentViewController animated:YES];
+}
+
+- (void)customizeBackButton
+{
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] 
                                    initWithTitle: @"Back" 
                                    style: UIBarButtonItemStyleBordered
                                    target: nil action: nil];
     [backButton setTintColor:[[UIColor alloc] initWithRed:57.0/255.0 green:42.0/255.0 blue:23.0/255.0 alpha:1.0]];
     [self.navigationItem setBackBarButtonItem:backButton];
-//    [self.navigationController pushViewController:detailViewController animated:YES];
-     // ...
-     // Pass the selected object to the new view controller.
-     // [self.navigationController pushViewController:detailViewController animated:YES];
-    [self.navigationController pushViewController:documentViewController animated:YES];
 }
 
 @end
