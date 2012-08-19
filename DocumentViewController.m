@@ -36,23 +36,30 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    // Set the title of the document
     [titleField setText:[document title]];
     
+    // Set the image
     NSMutableString *imagePath = [NSMutableString stringWithFormat:@"garden%d.png", document.documentId];
     [imageField setImage:[UIImage imageNamed:imagePath]];
     
+    CGRect imageFieldFrame = imageField.frame;
+    imageFieldFrame.size.height = imageField.frame.size.height;
+    [imageField setFrame:imageFieldFrame];
+    
+    // Set the content of the document
     [contentField setText:[document content]];
-    [contentField setShowsHorizontalScrollIndicator:NO];
-    [contentField setShowsVerticalScrollIndicator:NO];
     
-    CGRect frame = contentField.frame;
-    frame.size.height = contentField.contentSize.height;
-    
-    [contentField setFrame:frame];
+    // Attempt to increase the height of the content field to contain text
+    CGRect contentFieldFrame = contentField.frame;
+    contentFieldFrame.size.height = contentField.contentSize.height;
+    [contentField setFrame:contentFieldFrame];
     
     CGSize imageFieldSize = imageField.bounds.size;
     CGSize contentFieldSize = contentField.bounds.size;
     
+    // Add the heights of the image field and content field and set the total to the height of the scrollView
     scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, imageFieldSize.height + contentFieldSize.height);
 }
 
