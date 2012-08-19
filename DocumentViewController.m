@@ -44,6 +44,16 @@
     [contentField setText:[document content]];
     [contentField setShowsHorizontalScrollIndicator:NO];
     [contentField setShowsVerticalScrollIndicator:NO];
+    
+    CGRect frame = contentField.frame;
+    frame.size.height = contentField.contentSize.height;
+    
+    [contentField setFrame:frame];
+    
+    CGSize imageFieldSize = imageField.bounds.size;
+    CGSize contentFieldSize = contentField.bounds.size;
+    
+    scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, imageFieldSize.height + contentFieldSize.height);
 }
 
 - (void)viewDidUnload
@@ -51,6 +61,7 @@
     imageField = nil;
     contentField = nil;
     titleField = nil;
+    scrollView = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

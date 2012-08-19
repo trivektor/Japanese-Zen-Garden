@@ -13,6 +13,7 @@
 
 @interface DocumentViewController : UIViewController
 {
+    __weak IBOutlet UIScrollView *scrollView;
     __weak IBOutlet UILabel *titleField;
     __weak IBOutlet UIImageView *imageField;
     __weak IBOutlet UITextView *contentField;
