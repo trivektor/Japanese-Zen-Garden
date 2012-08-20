@@ -12,6 +12,8 @@
 		B512F32015E1F54400EDD5AF /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B512F31E15E1F54400EDD5AF /* Icon@2x.png */; };
 		B512F32215E1F58700EDD5AF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B512F32115E1F58700EDD5AF /* Icon.png */; };
 		B512F32415E1F5C400EDD5AF /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B512F32315E1F5C400EDD5AF /* Icon@2x.png */; };
+		B512F32815E202DB00EDD5AF /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B512F32615E202DB00EDD5AF /* FeedbackViewController.m */; };
+		B512F32915E202DB00EDD5AF /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B512F32715E202DB00EDD5AF /* FeedbackViewController.xib */; };
 		B575EE3815D8B8C600BC1844 /* garden1.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE3115D8B8C600BC1844 /* garden1.png */; };
 		B575EE3915D8B8C600BC1844 /* garden2.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE3215D8B8C600BC1844 /* garden2.png */; };
 		B575EE3A15D8B8C600BC1844 /* garden3.png in Resources */ = {isa = PBXBuildFile; fileRef = B575EE3315D8B8C600BC1844 /* garden3.png */; };
@@ -48,6 +50,9 @@
 		B512F31E15E1F54400EDD5AF /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../Desktop/iphone_dev/Icon@2x.png"; sourceTree = "<group>"; };
 		B512F32115E1F58700EDD5AF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B512F32315E1F5C400EDD5AF /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		B512F32515E202DB00EDD5AF /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		B512F32615E202DB00EDD5AF /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		B512F32715E202DB00EDD5AF /* FeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
 		B575EE3115D8B8C600BC1844 /* garden1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden1.png; sourceTree = "<group>"; };
 		B575EE3215D8B8C600BC1844 /* garden2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden2.png; sourceTree = "<group>"; };
 		B575EE3315D8B8C600BC1844 /* garden3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garden3.png; sourceTree = "<group>"; };
@@ -117,6 +122,9 @@
 		B5DF3FD915D63E32000F79D3 = {
 			isa = PBXGroup;
 			children = (
+				B512F32515E202DB00EDD5AF /* FeedbackViewController.h */,
+				B512F32615E202DB00EDD5AF /* FeedbackViewController.m */,
+				B512F32715E202DB00EDD5AF /* FeedbackViewController.xib */,
 				B512F32315E1F5C400EDD5AF /* Icon@2x.png */,
 				B512F32115E1F58700EDD5AF /* Icon.png */,
 				B512F31A15E1F3DE00EDD5AF /* Default.png */,
@@ -271,6 +279,7 @@
 				B512F32015E1F54400EDD5AF /* Icon@2x.png in Resources */,
 				B512F32215E1F58700EDD5AF /* Icon.png in Resources */,
 				B512F32415E1F5C400EDD5AF /* Icon@2x.png in Resources */,
+				B512F32915E202DB00EDD5AF /* FeedbackViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +298,7 @@
 				B5DC110015D755DF00212C9B /* Documents.m in Sources */,
 				B5F01F3715D838C600679D10 /* DocumentViewController.m in Sources */,
 				B575EE4215D8BE0000BC1844 /* AboutViewController.m in Sources */,
+				B512F32815E202DB00EDD5AF /* FeedbackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

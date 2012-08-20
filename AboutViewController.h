@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface AboutViewController : UIViewController
+{
+    
+    __weak IBOutlet UIButton *feedbackButton;
+}
+
+- (IBAction)feedbackButtonTapped:(id)sender;
 
 @end

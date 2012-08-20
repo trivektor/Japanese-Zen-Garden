@@ -7,6 +7,7 @@
 //
 
 #import "AboutViewController.h"
+#import "FeedbackViewController.h"
 
 @interface AboutViewController ()
 
@@ -32,6 +33,7 @@
 
 - (void)viewDidUnload
 {
+    feedbackButton = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -40,6 +42,23 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (IBAction)feedbackButtonTapped:(id)sender
+{
+    [self customizeBackButton];
+    FeedbackViewController *feedbackViewController = [[FeedbackViewController alloc] init];
+    [self.navigationController pushViewController:feedbackViewController animated:YES];
+}
+
+- (void)customizeBackButton
+{
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] 
+                                   initWithTitle: @"Back" 
+                                   style: UIBarButtonItemStyleBordered
+                                   target: nil action: nil];
+    [backButton setTintColor:[[UIColor alloc] initWithRed:0x66/255.0 green:0x36/255.0 blue:0x7/255.0 alpha:1.0]];
+    [self.navigationItem setBackBarButtonItem:backButton];
 }
 
 @end
