@@ -47,13 +47,13 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "DocumentViewController.m"
-         timestampString = "367096798.979206"
+         timestampString = "367097227.104906"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "64"
-         endingLineNumber = "64"
-         landmarkName = "-viewDidLoad"
-         landmarkType = "5">
+         startingLineNumber = "65"
+         endingLineNumber = "65"
+         landmarkName = "@implementation DocumentViewController"
+         landmarkType = "3">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

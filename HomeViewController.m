@@ -57,7 +57,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     //self.navigationItem.rightBarButtonItem = self.editButtonItem;
     UIBarButtonItem *aboutButton = [[UIBarButtonItem alloc] initWithTitle:@"About" style:UIBarButtonItemStyleBordered target:self action:@selector(showAboutView)];
-    [aboutButton setTintColor:[UIColor colorWithRed:58.0/255.0 green:37.0/255.0 blue:12.0/255.0 alpha:0.8f]];
+    [aboutButton setTintColor:[UIColor colorWithRed:0x66/255.0 green:0x36/255.0 blue:0x7/255.0 alpha:1.0]];
     self.navigationItem.rightBarButtonItem = aboutButton;
 }
 
@@ -182,7 +182,7 @@
                                    initWithTitle: @"Back" 
                                    style: UIBarButtonItemStyleBordered
                                    target: nil action: nil];
-    [backButton setTintColor:[[UIColor alloc] initWithRed:57.0/255.0 green:42.0/255.0 blue:23.0/255.0 alpha:1.0]];
+    [backButton setTintColor:[[UIColor alloc] initWithRed:0x66/255.0 green:0x36/255.0 blue:0x7/255.0 alpha:1.0]];
     [self.navigationItem setBackBarButtonItem:backButton];
 }
 
