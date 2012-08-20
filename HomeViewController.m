@@ -48,9 +48,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    // Set title of navigation bar
     [self.navigationItem setTitle:@"Japanese Zen Garden"];
-    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grass.jpg"]]];
-    //[self.tableView.layer setCornerRadius:5.0];
+    
+    // Set background image for the table controller
+    [self.navigationController.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"grass.jpg"]]];
+    [self.tableView setBackgroundColor:[UIColor clearColor]];
+    
+    // Position the table view 30pixels from the top
+    [self.tableView setContentInset:UIEdgeInsetsMake(30, 0, 0, 0)];
+   
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
